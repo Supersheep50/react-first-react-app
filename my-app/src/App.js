@@ -1,9 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import FunctionalGreeting from './components/FunctionalGreeting';
+import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
+
+
+
+
+
 
 function App() {
   return (
     <div className="App">
+      <FunctionalGreeting />
+      <FunctionalGreetingWithProps />
+
+      
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
