@@ -1,12 +1,10 @@
 import "./App.css";
-import ConditionalRenderingClass from "./components/ConditionalRenderingClass";
-import ConditionalRenderingFunctional from "./components/ConditionalRenderingFunctional";
+import ControlledForm from "./components/ControlledForm";
 
 function App() {
-  return (<div className="App">
-      <ConditionalRenderingClass />
-      <ConditionalRenderingFunctional />
-  </div>);
+  return <div className="App">
+      <ControlledForm />
+  </div>;
 }
 
 export default App;
